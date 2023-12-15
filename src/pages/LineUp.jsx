@@ -14,13 +14,41 @@ const LineUp = () => {
       {/* Poster */}
       <div className="flex flex-col lg:flex-row lg:flex-wrap justify-center my-5 items-center gap-5">
         {/* Line up */}
-        <img src={img2} alt="" className="w-full lg:w-[25%]" />
-        <img src={img6} alt="" className="w-full lg:w-[25%]" />
-        <img src={img3} alt="" className="w-full lg:w-[25%]" />
-        <img src={img5} alt="" className="w-full lg:w-[25%]" />
-        <img src={img4} alt="" className="w-full lg:w-[25%]" />
-        <img src={img1} alt="" className="w-full lg:w-[25%]" />
-        <img src={poster} alt="" className="w-full lg:w-[25%]" />
+        <img
+          src="https://images.unsplash.com/photo-1702404275992-929c62049bfe?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          className="w-full lg:w-[25%]"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1702404275992-929c62049bfe?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          className="w-full lg:w-[25%]"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1702404275992-929c62049bfe?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          className="w-full lg:w-[25%]"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1702404275992-929c62049bfe?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          className="w-full lg:w-[25%]"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1702404275992-929c62049bfe?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          className="w-full lg:w-[25%]"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1702404275992-929c62049bfe?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          className="w-full lg:w-[25%]"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1702404275992-929c62049bfe?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          className="w-full lg:w-[25%]"
+        />
       </div>
       <button
         onClick={() => nav("/")}

@@ -181,9 +181,7 @@ const BuyTicket = () => {
             })}
           </div>
         </div>
-        {data.length === 0 ? (
-          ""
-        ) : (
+        
           <>
             {data?.ticket_name === "GA" ? null : (
               <div className="flex lg:flex-row flex-col justify-between items-center">
@@ -328,7 +326,7 @@ const BuyTicket = () => {
               </div>
             )}
           </>
-        )}
+       
       </div>
     </div>
   );

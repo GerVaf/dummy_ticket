@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import bg from "../assets/bg.png";
-import bg2 from "../assets/bg2.png";
 import { useNavigate } from "react-router-dom";
 import { BsFacebook } from "react-icons/bs";
 import { useDispatch } from "react-redux";
@@ -25,7 +23,7 @@ const Home = () => {
   return (
     <>
       <div className="relative flex justify-center flex-col gap-5 lg:flex-row">
-        <img className="w-full" src={bg2} />
+        <img className="w-full" src='https://images.unsplash.com/photo-1702404275992-929c62049bfe?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
         {/* Buttons */}
         <div className="lg:absolute flex flex-col md:flex-row justify-center items-center gap-10 bottom-4">
           {/* LineUp */}
@@ -40,7 +38,7 @@ const Home = () => {
             }}
             className="buttons"
           >
-            Buy Now
+            Shop Now
           </button>
           {/* LineUp */}
           <button onClick={() => nav("/details")} className="buttons">
@@ -53,20 +51,19 @@ const Home = () => {
         <div className="flex flex-col md:flex-row items-center gap-5">
           {/* Social Icons */}
           <a
-            href="https://www.facebook.com/profile.php?id=61552327747812"
             className="text-white flex items-center gap-5 text-3xl"
           >
             <BsFacebook />
           </a>
           <div className="text-white flex flex-col lg:flex-row gap-3">
-            <span className="text-lg">Support Team သို့ ဆက်သွယ်ရန်။</span>
-            <span className="text-lg">09757618645, 09971282256</span>
+            <span className="text-lg">Something i dont know</span>
+            <span className="text-lg">09---------</span>
           </div>
         </div>
         {/* Privacy Policy */}
 
         <p className="text-center md:text-start text-slate-300">
-          ©2023 - All Rights Reserved.
+          ©something i don't know
         </p>
       </div>
     </>
